@@ -1,5 +1,5 @@
 import React from "react";
-import Vector from "../assets/images/Vector.png"
+import Vector from "../assets/images/Vector.png";
 const Header = () => {
   return (
     <div>
@@ -7,14 +7,14 @@ const Header = () => {
         <div className="header">
           <div classNameName="headerLeft">
             <h1>An inspiring design delivered to your inbox every morning</h1>
-            <br/>
+            <br />
             <p>
               Our team scouts the internet for the best designs, illustrations
               and art and delivers a truly inspiring one every day to your inbox
             </p>
-            <br/>
+            <br />
             <h3>Show me how it works</h3>
-            <br/>
+            <br />
             <div className="registerContainer">
               <input type="text" placeholder="Your e-mail address" />
               <button>Register Now</button>
@@ -27,10 +27,7 @@ const Header = () => {
           </div>
           <div className="headerRight">
             <div className="imageContainer">
-              <img
-                src={Vector}
-                alt="image here"
-              />
+              <img src={Vector} alt="image here" />
             </div>
           </div>
         </div>

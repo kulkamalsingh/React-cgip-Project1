@@ -1,6 +1,6 @@
 import React from "react";
-import linkedin from "../assets/images/LinkedinLogo.png"
-import instagram from "../assets/images/InstagramLogo.png"
+import linkedin from "../assets/images/LinkedinLogo.png";
+import instagram from "../assets/images/InstagramLogo.png";
 const Footer = () => {
   return (
     <div>
@@ -17,16 +17,8 @@ const Footer = () => {
             <span>dweep.io</span>
             <span>Made with love in India</span>
             <div className="logoContainer">
-              <img
-                src={linkedin}
-                alt="linkedin logo here"
-               
-              />
-              <img
-                src={instagram}
-                alt="instagram logo here"
-               
-              />
+              <img src={linkedin} alt="linkedin logo here" />
+              <img src={instagram} alt="instagram logo here" />
             </div>
             <br />
             <span>hello@dweep.io</span>
